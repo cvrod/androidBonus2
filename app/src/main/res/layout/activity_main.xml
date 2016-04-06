@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.excilys.parlezvous.bonusexo1.MainActivity"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A"
+        android:id="@+id/ASquare"
+        android:background="#ff6f6f"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="B"
+        android:id="@+id/BSquare"
+        android:layout_alignBottom="@+id/ASquare"
+        android:layout_toRightOf="@+id/ASquare"
+        android:layout_toEndOf="@+id/ASquare"
+        android:background="#44de53"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="C"
+        android:id="@+id/CSquare"
+        android:background="#6554ff"
+        android:layout_above="@+id/BSquare"
+        android:layout_alignRight="@+id/BSquare"
+        android:layout_alignEnd="@+id/BSquare"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="D"
+        android:id="@+id/DSquare"
+        android:background="#44de53"
+        android:gravity="center"
+        android:layout_below="@+id/ASquare"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E"
+        android:id="@+id/ESquare"
+        android:background="#44de53"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
